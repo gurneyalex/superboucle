@@ -8,17 +8,17 @@ from PyQt5.QtWidgets import (QMainWindow, QFileDialog,
                              QAction, QActionGroup, QMessageBox, QApplication)
 from PyQt5.QtCore import QTimer, QObject, pyqtSignal, QSettings, Qt
 
-from clip import Clip, load_song_from_file, verify_ext, Song
-from gui_ui import Ui_MainWindow
-from cell import Cell
-from learn import LearnDialog
-from manage import ManageDialog
-from playlist import PlaylistDialog, getSongs
-from port_manager import PortManager
-from new_song import NewSongDialog
-from add_clip import AddClipDialog
-from add_port import AddPortDialog
-from device import Device
+from superboucle.clip import Clip, load_song_from_file, verify_ext, Song
+from superboucle.gui_ui import Ui_MainWindow
+from superboucle.cell import Cell
+from superboucle.learn import LearnDialog
+from superboucle.manage import ManageDialog
+from superboucle.playlist import PlaylistDialog, getSongs
+from superboucle.port_manager import PortManager
+from superboucle.new_song import NewSongDialog
+from superboucle.add_clip import AddClipDialog
+from superboucle.add_port import AddPortDialog
+from superboucle.device import Device
 import struct
 from queue import Queue, Empty
 import pickle

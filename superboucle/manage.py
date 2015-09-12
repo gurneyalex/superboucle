@@ -1,8 +1,8 @@
 from PyQt5.QtWidgets import QDialog
-from manage_ui import Ui_Dialog
-from learn import LearnDialog
-from device import Device
-from clip import verify_ext
+from superboucle.manage_ui import Ui_Dialog
+from superboucle.learn import LearnDialog
+from superboucle.device import Device
+from superboucle.clip import verify_ext
 import json
 
 
