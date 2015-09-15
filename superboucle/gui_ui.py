@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'gui_ui.ui'
 #
-# Created: Thu Jul  9 14:33:49 2015
+# Created: Sat Sep 12 16:09:59 2015
 #      by: PyQt5 UI code generator 5.2.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -166,7 +166,7 @@ class Ui_MainWindow(object):
         self.groupBox_2.setFont(font)
         self.groupBox_2.setObjectName("groupBox_2")
         self.formLayoutWidget_4 = QtWidgets.QWidget(self.groupBox_2)
-        self.formLayoutWidget_4.setGeometry(QtCore.QRect(10, 30, 161, 51))
+        self.formLayoutWidget_4.setGeometry(QtCore.QRect(10, 30, 161, 54))
         self.formLayoutWidget_4.setObjectName("formLayoutWidget_4")
         self.formLayout_4 = QtWidgets.QFormLayout(self.formLayoutWidget_4)
         self.formLayout_4.setContentsMargins(0, 0, 0, 0)
