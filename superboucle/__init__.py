@@ -203,4 +203,4 @@ def main():
                 sb_out = gui.port_by_name[ch_name]
                 client.connect(sb_out, pl_port)
 
-    app.exec_()
+        app.exec_()
