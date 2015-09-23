@@ -1,13 +1,14 @@
 Source: superboucle
-Maintainer: Julien Acroute <superboucle@nura.eu>
 Section: sound
 Priority: optional
-Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
-Standards-Version: 3.9.1
+Maintainer: Julien Acroute <superboucle@nura.eu>
+Build-Depends: python-setuptools, python3-all, debhelper
+X-Python3-Version: >= 3.2
+Standards-Version: 3.9.6
 
 Package: superboucle
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}, python3-pyqt5
 Description: Loop based software fully controllable with any midi device
  .
  SuperBoucle is a loop based software fully controllable with any midi device.
